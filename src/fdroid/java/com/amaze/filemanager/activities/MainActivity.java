@@ -1660,7 +1660,7 @@ public class MainActivity extends BaseActivity implements OnRequestPermissionsRe
             mDrawerLayout.setScrimColor(Color.TRANSPARENT);
             isDrawerLocked = true;
         }
-        mDrawerList.addHeaderView(drawerHeaderLayout);
+        mDrawerList.addHeaderView(drawerHeaderLayout);//加头布局文件
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         View v = findViewById(R.id.fab_bg);
         /*if (theme1 != 1)

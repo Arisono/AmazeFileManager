@@ -160,7 +160,7 @@ public class DrawerAdapter extends ArrayAdapter<Item> {
                 imageView.setColorFilter(fabskin);
                 txtTitle.setTextColor(Color.parseColor(m.fabskin));
             } else {
-                if (m.theme1 == 0) {
+                if (m.theme1 == 0) {//正常模式
                     imageView.setColorFilter(Color.parseColor("#666666"));
                     txtTitle.setTextColor(m.getResources().getColor(android.R.color.black));
                 } else {
